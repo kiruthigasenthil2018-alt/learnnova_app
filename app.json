@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "LearnNova",
+    "slug": "learnova",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "scheme": "learnova",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2463EB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.learnova.app",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "com.learnova.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2463EB"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "LearnNova",
+      "shortName": "LearnNova",
+      "description": "Learn • Play • Explore • Grow"
+    },
+    "plugins": [
+      "expo-apple-authentication",
+      "expo-audio",
+      "expo-asset",
+      "expo-sharing"
+    ]
+  }
+}
